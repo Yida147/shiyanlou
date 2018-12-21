@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
-'''
-这是使用三个单引号的情况
-这个文件主要用于打印 dog
-它的使用方法是在命令行中执行：python3 dog.py
-'''
-print("dog")
-"""
-这是使用三个双引号的情况
-这个注释也是会被程序忽略掉的
-"""
+class Dog:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __repr__(self):
+        return 'Dog: {}'.format(self.name)
+
+dog = Dog('wangcai', 2)
+print(dog)
+print(dog.name)
+print(dog.age)
