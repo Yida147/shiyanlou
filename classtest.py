@@ -6,7 +6,7 @@ class UserData(object):
         self._name = name
 
     def __repr__(self):
-        return 'ID:{} Name:{}'.format(self.id, self.name)
+        return 'ID:{} Name:{}'.format(self.id, self._name)
 
 
 class NewUser(object):
