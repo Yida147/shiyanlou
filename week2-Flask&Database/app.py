@@ -64,7 +64,7 @@ def register():
 @app.route('/set_session')
 def set_session():
     session.permanent = True
-    app.permanent_session_lifetime = timedelta(minutes=5)
+    # app.permanent_session_lifetime = timedelta(minutes=5)
     session['username'] = 'shixiaolou'
     return  'chenggongshezhi session'
 

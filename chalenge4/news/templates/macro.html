@@ -1,0 +1,5 @@
+{% macro add_newline(file_contents) %}
+	{% for element in file_contents %}
+		<p> {{ element }} </p>
+	{% endfor %}
+{% endmacro %}

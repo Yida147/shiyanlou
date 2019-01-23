@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% from 'macro.html' import add_newline %}
+{% block content %}
+	<h1>{{ add_newline(file_contents) }}</h1>
+{% endblock %}
