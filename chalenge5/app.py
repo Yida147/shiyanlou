@@ -6,7 +6,6 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Founder123@localhost/shiyanlou'
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 db = SQLAlchemy(app)
-print('db: ', db)
 
 
 
