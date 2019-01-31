@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>
+    {% for title in raw_data %}
+        <p>
+            <a href="{{ url_for("file",file_id=title) }}">{{ title }}</a>
+        </p>
+    {% endfor %}
+</h1>
+{% endblock %}
