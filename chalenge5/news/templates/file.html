@@ -1,17 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>
-    <p>
-        ID: {{ raw_data["id"] }}
-    </p>
-    <p>
-        Content: {{ raw_data["content"] }}
-    </p>
-    <p>
-        Create Time: {{ raw_data["create_time"] }}
-    </p>
-    <p>
-        Category: {{ raw_data["category"] }}
-    </p>
-</h1>
+    <h1>{{ file.title }}</h1>
+    <p>{{ file.create_at }}</p>
+    <p>{{ file.content }}</p>
 {% endblock %}
