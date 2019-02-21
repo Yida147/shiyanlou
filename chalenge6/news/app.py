@@ -1,17 +1,13 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, abort
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import event
 from pymongo import MongoClient
 from datetime import datetime
 
 app = Flask(__name__)
-
-app.config.update(dict(
-    SQLALCHEMY_DATABASE_URI='mysql://root:Founder123@localhost/shiyanlou',
-    SQLALCHEMY_TRACK_MODIFICATIONS=False,
-    TEMPLATES_AUTO_RELOAD = True
-))
-
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Founder123@localhost/shiyanlou'
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 mongo = MongoClient('127.0.0.1', 27017).shiyanlou
 
@@ -37,38 +33,20 @@ class File(db.Model):
         return '%s' % self.title
 
     def add_tag(self, tag_name):
-        file_item = mongo.file.find_one({'file_id':self.id})
-        if file_item:
-            tags = file_item['tags']
-            if tag_name not in tags:
-                tags.append(tag_name)
-            mongo.file.update_one({'file_id':self.id}, {'$set': {'tags':tags}})
-        else:
-            tags = [tag_name]
-            mongo.file.insert_one({'file_id':self.id, 'tags':tags})
-        return tags
+        mongo.file.update_one({'fileId': self.id}, {'$addToSet': {'tags': tag_name}})
+        return self.__file['tags']
 
     def remove_tag(self, tag_name):
-        file_item = mongo.file.find_one({'file_id':self.id})
-        if file_item:
-            tags = file_item['tags']
-            try:
-                new_tags = tags.remove(tag_name)
-            except ValueError:
-                return tags
-            mongo.file.update_one({'file_id':self.id},{'$set':{'tags':new_tags}})
-            return new_tags
-        return []
+        mongo.file.tags.update_one({'fileId': self.id}, {'$pull': tag_name})
+        return self.__file['tags']
 
+    @property
+    def __file(self):
+        return mongo.file.find_one({'fileId': self.id})
 
     @property
     def tags(self):
-        file_item = mongo.files.find_one({'file_id': self.id})
-        if file_item:
-            print(file_item)
-            return file_item['tags']
-        else:
-            return []
+        return self.__file['tags']
 
 
 @event.listens_for(File, 'after_insert')
@@ -103,8 +81,8 @@ def index():
 
 @app.route('/files/<int:file_id>')
 def file(file_id):
-    file_item = File.query.get_or_404(file_id)
-    return render_template('file.html', file_item=file_item)
+    file = File.query.get_or_404(file_id)
+    return render_template('file.html', file=file)
 
 
 @app.errorhandler(404)
