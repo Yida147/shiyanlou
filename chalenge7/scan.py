@@ -47,7 +47,8 @@ def scan():
         s.close()
 
     # 输出处于开启状态的端口
-    print(f'Complted scan. Opening ports at {open_list}')
+    # print(f'Complted scan. Opening ports at {open_list}')
+    # print(f'Complted scan. Opening ports at {open_list}')
 
 
 # 执行
