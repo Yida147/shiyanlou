@@ -2,26 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09cc5df-c735-4072-9ee2-c1af2af2c1cb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist.zip" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist.zip" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge8/shiyanlou-chalenge/2013.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge8/shiyanlou-chalenge/2014.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge8/shiyanlou-chalenge/2015.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chalenge8/shiyanlou-chalenge/2016.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/files/helloshiyanlou.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/files/helloworld.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/news/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/news/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/news/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/news/templates/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/news/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge4/news/templates/macro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/.ipynb_checkpoints/insertIntoDB-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/insertIntoDB.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/news/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/news/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/news/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/news/templates/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/news/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge5/static/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/static/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/templates/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge6/news/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge7/scan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge8/2013.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge8/2014.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge8/2015.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge8/2016.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge8/challenge3_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalenge8/courses.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge10/web_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge10/web_run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/flask/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/jinja2/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/jinja2/compiler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/tarfile.py" afterDir="false" />
@@ -78,33 +121,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chalenge7/scan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chalenge8/challenge3_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenge10/ele.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
+            <state relative-caret-position="630">
               <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -113,11 +132,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenge10/web_run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding>
+                <element signature="e#1#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,8 +197,8 @@
         <option value="$PROJECT_DIR$/chalenge8/challenge3_2.py" />
         <option value="$PROJECT_DIR$/challenge9/challenge3_4.py" />
         <option value="$PROJECT_DIR$/challenge10/ele.py" />
-        <option value="$PROJECT_DIR$/challenge10/web_run.py" />
         <option value="$PROJECT_DIR$/challenge10/template/templates" />
+        <option value="$PROJECT_DIR$/challenge10/web_run.py" />
       </list>
     </option>
   </component>
@@ -188,8 +210,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="730" />
-    <option name="width" value="710" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -200,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,7 +250,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,12 +443,13 @@
       <workItem from="1550367597612" duration="10422000" />
       <workItem from="1550663025350" duration="9670000" />
       <workItem from="1550730373232" duration="1034000" />
-      <workItem from="1551877071197" duration="4057000" />
+      <workItem from="1551877071197" duration="5038000" />
+      <workItem from="1552048136129" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68857000" />
+    <option name="totallyTimeSpent" value="69946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,9 +462,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34549356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3505007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24926254" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32890856" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -528,13 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/base.html" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -549,36 +564,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge4/news/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge4/news/templates/file.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge4/news/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chalenge4/news/app.py" />
+    <entry file="file://$PROJECT_DIR$/chalenge4/news/templates/file.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge4/news/templates/404.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/404.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/week1-Pythonbasic/multi_process/chanlenge-multiprocessing calculator/tmp/user_test.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -623,17 +613,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1-Pythonbasic/multi_process/chanlenge-multiprocessing calculator/tmp/user.csv">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -701,63 +691,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge4/news/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge5/news/app.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/file.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge6/news/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge7/scan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/404.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge4/news/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge5/news/app.py" />
+    <entry file="file://$PROJECT_DIR$/chalenge5/news/templates/file.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/file.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge6/news/app.py" />
+    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge6/news/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/chalenge7/scan.py" />
     <entry file="file://$PROJECT_DIR$/challenge9/challenge3_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -768,23 +710,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chalenge8/challenge3_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/challenge10/template/templates">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chalenge8/challenge3_2.py" />
+    <entry file="file://$PROJECT_DIR$/challenge10/template/templates" />
     <entry file="file://$PROJECT_DIR$/challenge10/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -792,19 +719,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge10/web_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenge10/ele.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="630">
           <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge10/web_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#1#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
